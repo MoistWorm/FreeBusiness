@@ -221,6 +221,9 @@ input[type=text], input[type=email], input[type=tel], textarea {
 .input:focus {
   border: 2px solid #ffbb42;
 }
+.input.error {
+  border: 2px solid red;
+}
 
 textarea.input {
   resize: none;
