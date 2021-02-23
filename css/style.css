@@ -599,9 +599,6 @@ body.ie .ibg img {
     margin: 0px 10px;
   }
 }
-.menu-header__list li:first-child {
-  margin: 0px;
-}
 @media (max-width: 767.98px) {
   .menu-header__list {
     display: block;
@@ -650,24 +647,6 @@ body.ie .ibg img {
   left: 0;
   width: 100%;
   transition: all 0.3s ease 0s;
-}
-.menu-header__link_home {
-  display: inline-block;
-  color: #fff;
-  background-color: #ffbb42;
-  padding: 10px 20px;
-  border-radius: 2px;
-}
-@media (max-width: 767.98px) {
-  .menu-header__link_home {
-    display: block;
-    width: 100px;
-    margin: 0px auto;
-  }
-}
-.menu-header__link_home:hover {
-  color: #fff;
-  transform: scale(1.1);
 }
 @media (max-width: 767.98px) {
   .menu-header {
