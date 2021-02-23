@@ -814,11 +814,6 @@ body.ie .ibg img {
 .banner {
   background-color: #709dca;
 }
-@media (max-width: 479.98px) {
-  .banner {
-    display: none;
-  }
-}
 .banner__body {
   position: relative;
   padding: 110px 0px 350px 0px;
@@ -826,6 +821,11 @@ body.ie .ibg img {
 @media (max-width: 767.98px) {
   .banner__body {
     padding: 100px 0px 250px 0px;
+  }
+}
+@media (max-width: 479.98px) {
+  .banner__body {
+    padding: 80px 0px 50px 0px;
   }
 }
 .banner__title {
@@ -858,6 +858,11 @@ body.ie .ibg img {
     -moz-transform: translate3d(-50%, 0, 0) rotate(0deg) scale(0.8);
     -ms-transform: translate3d(-50%, 0, 0) rotate(0deg) scale(0.8);
     -o-transform: translate3d(-50%, 0, 0) rotate(0deg) scale(0.8);
+  }
+}
+@media (max-width: 479.98px) {
+  .banner__pad {
+    display: none;
   }
 }
 
@@ -981,9 +986,6 @@ body.ie .services__column {
     flex: 0 0 40px;
   }
 }
-.item-services__icon:hover {
-  transform: scale(1.1);
-}
 .item-services__body {
   flex: 1 1 auto;
   padding: 0px 0px 0px 22px;
@@ -1019,6 +1021,9 @@ body.ie .services__column {
   .item-services__text {
     font-size: 15px;
   }
+}
+.item-services:hover .item-services__icon {
+  transform: scale(1.1);
 }
 
 .item-services__icon_rot img {
